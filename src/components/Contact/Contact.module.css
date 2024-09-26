@@ -1,0 +1,65 @@
+.items {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  padding: 25px;
+  font-size: 1.4em;
+  background-color: #312f2f69;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: #212020 solid 0.5px;
+}
+.icons {
+  margin-right: 8px;
+  width: 35px;
+  height: 35px;
+}
+.nameItem {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-weight: 1000;
+  color: #fff;
+}
+.numberItem {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  color: #fff;
+}
+.btn {
+  position: absolute;
+  top: 33.5px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 48px;
+  font-size: 0.8em;
+  border: 0.5px solid rgba(0, 0, 0, 0.03);
+  outline: 0;
+  border-radius: 15px;
+  color: #2a2e29;
+  font-weight: bold;
+  transition: all 0.255s ease;
+  cursor: pointer;
+  margin: 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px,
+    rgba(0, 0, 0, 0.3) 0px 3px 8px -2px, rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
+  background-color: #4e64beb6;
+}
+.btn:hover {
+  color: #7e0e02;
+ 
+}
+.btn:active {
+  background-color: #00000028;
+ 
+  box-shadow: inset 1px 1px 2px #404041cc, inset -1px -1px 2px #1a191925;
+  transform: translateY(2px);
+  transition: 100ms;
+}

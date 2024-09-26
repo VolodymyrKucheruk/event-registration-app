@@ -1,0 +1,76 @@
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 4em;
+  font-weight: bold;
+  color: #8a8c96;
+  text-shadow: 1px 1px 0 #fff;
+  margin-top: 65px;
+  margin-bottom: 75px;
+}
+.bookItem {
+  width: 55px;
+}
+.deviceHeader {
+  background: #1a1a1a;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  height: 40px;
+  left: 33.5%;
+  margin-left: -82px;
+  position: absolute;
+  top: 0px;
+  width: 364px;
+  z-index: 199;
+}
+.deviceHeader::after,
+.deviceHeader::before {
+  content: "";
+  height: 6px;
+  position: absolute;
+  top: 0;
+  width: 6px;
+}
+.deviceHeader::after {
+  background: radial-gradient(
+    circle at bottom left,
+    transparent 0,
+    transparent 75%,
+    #4f4f4f 75%,
+    #4f4f4f 100%
+  );
+  left: -6px;
+}
+.deviceHeader::before {
+  background: radial-gradient(
+    circle at bottom right,
+    transparent 0,
+    transparent 75%,
+    #4f4f4f 75%,
+    #4f4f4f 100%
+  );
+  right: -6px;
+}
+ .deviceSensors::after,
+ .deviceSensors::before {
+	content: "";
+	position: absolute;
+}
+ .deviceSensors::after {
+	background: #444;
+	border-radius: 2.5px;
+	height: 11px;
+	left: 31%;
+	margin-left: -20px;
+	top: 9px;
+	width: 140px;
+}
+ .deviceSensors::before {
+	background: #444;
+	border-radius: 50%;
+	height: 11px;
+	left: 60%;
+	margin-left: 30px;
+	top: 9px;
+	width: 12px;
+}

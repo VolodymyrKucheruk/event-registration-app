@@ -1,0 +1,33 @@
+.container {
+  width: 350px;
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #222c25;
+  
+}
+.icon{
+    margin-left: 8px;
+}
+.input {
+  border: 0;
+  outline: 0;
+  border-radius: 320px;
+  padding: 12px;
+  margin-bottom: 55px;
+  background-color: #ffffff00;
+  backdrop-filter: blur(8px);
+  box-shadow: inset 2px 2px 5px #494a4e, inset -5px -5px 10px #ffffff93;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.input:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
