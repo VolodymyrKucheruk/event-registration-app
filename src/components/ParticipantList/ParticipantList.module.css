@@ -1,0 +1,44 @@
+.participantList {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.eventTitle {
+  font-size: 32px;
+  color: royalblue;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  background-color: #fff;
+  border: 1px solid rgba(105, 105, 105, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.participantName {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.item span {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-right: 1rem;
+}
